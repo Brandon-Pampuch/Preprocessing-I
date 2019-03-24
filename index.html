@@ -1,19 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>My Resume</title>
+    <title>My Resume</title>
 
-  <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
+    <!-- Content: Navigation - Build a simple navigation with 4 items of your choosing
+* [ ] Content: Intro - Have a short introduction as to why you would be a good hire
+* [ ] Content: Skills - Showcase a list of skills you have somewhere on your resume
+* [ ] Content: Work History - Showcase your work history somewhere on your resume
+* [ ] Content: Contact - Provide some way a potential employer could contact you.  Phone number, email, or a full on contact form (doesn't have to work) -->
+  </head>
 
-<body>
-  <h1>My Resume</h1>
-</body>
+  <body>
+    <main>
+      
+      <header>
+        <div class="social">
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-github"></i>
+        </div>
+
+        <nav>
+          
+          <a href="#" class="href">Home</a>
+          <a href="#" class="href">About</a>
+          <a href="#" class="href">Contact</a>
+        </nav>
+      </header>
+
+      <section class="intro">
+        <div class="photo">
+          <img class="resume-photo" src="/images/resume-photo.jpg" alt="" />
+        </div>
+        <div class="title">
+          <h1>Brandon Pampuch</h1>
+          <p>
+            A builder who is just as excited by other's ideas as my own. Tell me
+            about your program, business or song. I love to inspire and be
+            inspired.
+          </p>
+          <button>Collaboration</button>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="main-content">
+        <div class="work-history">
+          <div class="big-title">Work History</div>
+          <div class="card">
+            <h1 class="work-place">Bloomsbury Education</h1>
+            <p class="dates">Nov 2016 – Nov 2018</p>
+            <p class="responsibilities">
+              Curriculum development for an international debate program at a
+              boutique academy in South Korea.
+            </p>
+          </div>
+          <div class="card">
+            <h1 class="work-place">Echo 100 Plus</h1>
+            <p class="dates">Feb 2019 – Mar 2019</p>
+            <p class="responsibilities">
+              Helping refugees learn to code for a life outside of Syria while
+              providing aid and support as well.
+            </p>
+          </div>
+
+          <div class="card">
+            <h1 class="work-place">Chungdahm Learning</h1>
+            <p class="dates">Nov 2011 – Nov 2016</p>
+            <p class="responsibilities">
+              Using advanced metrics to quantify the quality of teachers and
+              oversee their personal growth in our academy.
+            </p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="big-title">Projects</div>
+          <div class="card">
+            <h1 class="project-name"><a href="#">Great Idea Website</a></h1>
+            <p class="tech">A study in CSS and HTML</p>
+            <p class="description">
+              Created a full responsive layout using DRY sensabilities.
+            </p>
+          </div>
+          <div class="card">
+            <h1 class="project-name"><a href="#">JS Drumkit</a></h1>
+            <p class="tech">Vanilla Javascript</p>
+            <p class="description">
+              A simple toy that works as a drumkit. Enjoy!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- <footer>
+        <h2>Contact</h2>
+        <p>BrandonPampuch@gmail.com</p>
+      </footer> -->
+    </main>
+  </body>
 </html>
+<!-- .btn-text {
+  &:link,
+  &:visited {
+    font-size: $default-font-size;
+    color: $color-primary;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid $color-primary;
+    padding: 3px;
+    transition:(all .2s)
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-white;
+    box-shadow: 0 1rem 2rem rgba($color-black, .15);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    box-shadow: 0 .5rem 2rem rgba($color-black, .15);
+    transform: (translateY(0))
+  }
+} -->

@@ -1,1 +1,275 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 62.5%;
+  font-family: 'Muli', sans-serif;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  background-color: #f0f5f9;
+  background-image: linear-gradient(to right, rgba(23, 23, 23, 0.9), rgba(63, 63, 63, 0.9)), url("/images/buildings.jpg");
+  background-size: cover;
+}
+header {
+  font-size: 62.5%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+header .social {
+  color: white;
+  font-size: 3rem;
+  padding: 0 10%;
+}
+header .social .fab {
+  padding: 0 2rem;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+.intro {
+  display: flex;
+  justify-content: space-around;
+}
+.intro .photo .resume-photo {
+  width: 250px;
+  border: 2px solid #f0f5f9;
+  padding: 1rem;
+  border-radius: 2px;
+}
+.intro .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  font-size: 1.6rem;
+  align-items: flex-start;
+  color: white;
+}
+.intro .title h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.intro .title p {
+  margin-bottom: 8rem;
+  line-height: 1.7;
+  letter-spacing: 0.8px;
+}
+.intro .title button {
+  padding: 1.2rem 2.2rem;
+  border-radius: 2px;
+  font-size: 1.8rem;
+  background-color: rgba(255, 255, 255, 0.406);
+  color: white;
+  transition: all 2s;
+}
+.intro .title button:hover {
+  background-color: #edececc8;
+  transform: scale(2);
+}
+.divider {
+  border-bottom: 2px solid #52616b;
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem;
+}
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  padding-top: 2rem;
+  color: white;
+}
+.main-content .work-history {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  line-height: 1.4;
+}
+.main-content .work-history .big-title {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+.main-content .work-history .card {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.main-content .work-history .card h1 {
+  font-size: 1.7rem;
+}
+.main-content .work-history .card p {
+  margin-bottom: 1rem;
+}
+.main-content .project {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  line-height: 1.4;
+}
+.main-content .project .big-title {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+.main-content .project .card {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.main-content .project .card h1 {
+  font-size: 1.7rem;
+}
+.main-content .project .card h1 a {
+  color: white;
+}
+.main-content .project .card p {
+  margin-bottom: 1rem;
+}

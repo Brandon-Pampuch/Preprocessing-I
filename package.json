@@ -1,0 +1,23 @@
+{
+  "name": "preprocessing-i",
+  "version": "1.0.0",
+  "description": "For this project you will be building a digital resume from scratch. You will be required to use specific preprocessing skills to accomplish your tasks.",
+  "main": "index.js",
+  "scripts": {
+    "less-compile": "less-watch-compiler less css index.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandon-Pampuch/Preprocessing-I.git"
+  },
+  "author": "Brandon Pampuch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandon-Pampuch/Preprocessing-I/issues"
+  },
+  "homepage": "https://github.com/Brandon-Pampuch/Preprocessing-I#readme",
+  "dependencies": {
+    "less": "^3.9.0"
+  }
+}
