@@ -4,7 +4,7 @@
   "description": "For this project you will be building a digital resume from scratch. You will be required to use specific preprocessing skills to accomplish your tasks.",
   "main": "index.js",
   "scripts": {
-    "less-compile": "less-watch-compiler less css index.less",
+    "less": "less-watch-compiler less css index.less",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
